@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2024-example-journal",
+    "title": "A sample journal article about interesting things",
+    "authors": ["Emma Walquist", "A. Collaborator"],
+    "venue": "Journal of Examples",
+    "year": 2024,
+    "type": "journal",
+    "doi": "10.1234/example.doi.2024",
+    "url": "https://doi.org/10.1234/example.doi.2024",
+    "pdf": "assets/pubs/2024-example-journal.pdf",
+    "pages": "12-25",
+    "abstract": "Short one-sentence abstract or blurb for this paper.",
+    "tags": ["ml", "hci"]
+  },
+  {
+    "id": "2022-conf-case",
+    "title": "Conference paper showing a novel approach",
+    "authors": ["E. Walquist", "B. Researcher"],
+    "venue": "Proceedings of Fanciful Conference",
+    "year": 2022,
+    "type": "conference",
+    "url": "https://example.org/conf-paper",
+    "abstract": "An approachable summary describing the contribution in 1–2 sentences.",
+    "tags": ["vision", "systems"]
+  },
+  {
+    "id": "2021-preprint",
+    "title": "Exploratory preprint on something fun",
+    "authors": ["Emma Walquist"],
+    "venue": "arXiv preprint",
+    "year": 2021,
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2101.00001",
+    "abstract": "A short summary of the preprint.",
+    "tags": ["theory"]
+  }
+]

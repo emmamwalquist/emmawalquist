@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emma Walquist — Researcher & Designer</title>
+  <meta name="description" content="Emma Walquist — researcher, designer, and author. Publications, experience, and contact." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="hero">
+        <img src="assets/profile.jpg" alt="Emma Walquist" class="avatar" onerror="this.style.display='none'"/>
+        <h1 class="name">Emma Walquist</h1>
+        <p class="tagline">Researcher • Designer • Educator</p>
+        <nav class="social">
+          <a href="https://github.com/emmamwalquist" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a>
+        </nav>
+      </div>
+
+      <div class="summary">
+        <h2>About</h2>
+        <p>Short, warm biographical tidbit: who you are, what you study, and a couple of personal details (e.g., "based in Portland, coffee enthusiast, climber"). Keep it 2–4 sentences.</p>
+
+        <h3>Quick Facts</h3>
+        <ul class="facts">
+          <li><strong>Position:</strong> Assistant Professor (or your title)</li>
+          <li><strong>Affiliation:</strong> University / Organization</li>
+          <li><strong>Location:</strong> City, Country</li>
+          <li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+        </ul>
+
+        <p><a class="cta" href="#publications">See my publications</a> • <a class="cta" href="#resume">Résumé</a></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="resume" class="card">
+      <h2>Résumé</h2>
+      <div class="two-col">
+        <div>
+          <h3>Experience</h3>
+          <ul>
+            <li><strong>2022–Present</strong> — Assistant Professor, Example University</li>
+            <li><strong>2019–2022</strong> — Postdoc, Another Institute</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <ul>
+            <li><strong>PhD</strong> — Subject, University (Year)</li>
+            <li><strong>MS</strong> — Subject, University (Year)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Personal tidbits</h3>
+      <p>Small humanizing details about hobbies, projects, or unusual facts that make the page feel like "you".</p>
+
+      <p><a class="download-cv" href="assets/Emma_Walquist_CV.pdf" download>Download CV (PDF)</a></p>
+    </section>
+
+    <section id="publications" class="card">
+      <h2>Publications</h2>
+
+      <div class="pub-controls">
+        <input id="pub-search" type="search" placeholder="Search by title, author, or venue" aria-label="Search publications" />
+        <select id="pub-type" aria-label="Filter by type">
+          <option value="">All types</option>
+          <option value="journal">Journal</option>
+          <option value="conference">Conference</option>
+          <option value="book">Book</option>
+          <option value="preprint">Preprint</option>
+        </select>
+        <select id="pub-year" aria-label="Filter by year">
+          <option value="">All years</option>
+        </select>
+      </div>
+
+      <ul id="pub-list" class="pub-list" aria-live="polite">
+        <!-- publications injected here -->
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you'd like to get in touch about collaborations, speaking, or anything else, email <a href="mailto:you@example.com">you@example.com</a>.</p>
+      <p>Or find me on GitHub and Twitter (links at the top).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Emma Walquist — Built with a minimalist static site. Source on <a href="https://github.com/emmamwalquist/emmawalquist" target="_blank" rel="noopener">GitHub</a>.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
