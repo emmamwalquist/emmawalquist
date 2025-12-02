@@ -1,4 +1,4 @@
-# Personal website for Emma Walquist
+# Emma Walquist
 
 This repository contains a single-page static website (HTML/CSS/JS) that serves as a fancy résumé and publication list.
 
